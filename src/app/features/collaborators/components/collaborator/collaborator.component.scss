@@ -1,0 +1,41 @@
+.collaborator-card {
+    font-size: 10px;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(180deg, #161616e7, #0f0f0f6b);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin-bottom: 35px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.name-collaborator {
+  margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+    border:0;
+    font-size: 1.2rem;
+    font-weight:bold;
+    background: linear-gradient(-45deg, #7e7a7ae7, #111111a6);
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: 1px 9px 5px -8px rgba(0, 0, 0, 0.7);
+}
